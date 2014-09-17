@@ -6,7 +6,7 @@
                     <apex:panelGrid columns="2" style="margin-top:1em;">
                       <apex:outputLabel value="Pehla Naam" for="firstName"/>
                       <apex:inputText required="true" id="firstName" value="{!firstName}" label="First Name"/>
-                      <apex:outputLabel value="Last Name" for="lastName"/>
+                      <apex:outputLabel value="Aakhri Naam" for="lastName"/>
                       <apex:inputText required="true" id="lastName" value="{!lastName}" label="Last Name"/>
                       <apex:outputLabel value="{!$Label.site.community_nickname}" for="communityNickname"/>
                       <apex:inputText required="true" id="communityNickname" value="{!communityNickname}" label="{!$Label.site.community_nickname}"/>
