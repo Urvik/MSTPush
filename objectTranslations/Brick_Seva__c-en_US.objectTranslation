@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Zone Detail</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Zone Details</value>
+    </caseValues>
+    <fields>
+        <help><!-- Total Shilas brought in --></help>
+        <label><!-- Brick Completed --></label>
+        <name>Brick_Completed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter Shila Target for the karyakar. --></help>
+        <label><!-- Brick Target --></label>
+        <name>Brick_Target__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Effective Date --></label>
+        <name>Latest_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Satsang Network Coordinator --></label>
+        <name>Satsang_Network_Coordinator__c</name>
+        <picklistValues>
+            <masterLabel>Urvik Trivedi</masterLabel>
+            <translation><!-- Urvik Trivedi --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please select the name of the zone leader. --></help>
+        <label><!-- Zone Leader --></label>
+        <name>Zone_Leader__c</name>
+        <picklistValues>
+            <masterLabel>Pareshbhai Patel</masterLabel>
+            <translation><!-- Pareshbhai Patel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Zone Name --></label>
+        <name>Zone_Name__c</name>
+        <picklistValues>
+            <masterLabel>Floral Park</masterLabel>
+            <translation><!-- Floral Park --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flushing 1</masterLabel>
+            <translation><!-- Flushing 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flushing 2</masterLabel>
+            <translation><!-- Flushing 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forest Hills &amp; Fresh Meadows</masterLabel>
+            <translation><!-- Forest Hills &amp; Fresh Meadows --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jackson Heights</masterLabel>
+            <translation><!-- Jackson Heights --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nassau</masterLabel>
+            <translation><!-- Nassau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suffolk</masterLabel>
+            <translation><!-- Suffolk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union Turnpike</masterLabel>
+            <translation><!-- Union Turnpike --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Brick Seva Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Zone Information --></label>
+            <section>Zone Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

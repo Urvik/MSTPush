@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Brick Seva Details for LI Mandir Shilanyas</description>
+    <enableActivities>false</enableActivities>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <fields>
+        <fullName>Brick_Completed__c</fullName>
+        <description>Total Shilas brought in</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total Shilas brought in</inlineHelpText>
+        <label>Brick Completed</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Brick_Target__c</fullName>
+        <description>Shila Target</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please enter Shila Target for the karyakar.</inlineHelpText>
+        <label>Brick Target</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Latest_Effective_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Latest Effective Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Satsang_Network_Coordinator__c</fullName>
+        <externalId>false</externalId>
+        <label>Satsang Network Coordinator</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Urvik Trivedi</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Zone_Leader__c</fullName>
+        <description>Karyakar&apos;s zone leader.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Please select the name of the zone leader.</inlineHelpText>
+        <label>Zone Leader</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Pareshbhai Patel</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Zone_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Zone Name</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Union Turnpike</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Floral Park</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Flushing 1</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Flushing 2</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Jackson Heights</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Nassau</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Suffolk</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Forest Hills &amp; Fresh Meadows</fullName>
+                <default>false</default>
+            </picklistValues>
+            <sorted>false</sorted>
+        </picklist>
+        <type>Picklist</type>
+    </fields>
+    <label>Zone Detail</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Zone_Name__c</columns>
+        <columns>Brick_Completed__c</columns>
+        <columns>Brick_Target__c</columns>
+        <columns>Zone_Leader__c</columns>
+        <columns>Satsang_Network_Coordinator__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>LI-SHILA-{MM}-{DD}-{0000}</displayFormat>
+        <label>Brick Seva Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Zone Details</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

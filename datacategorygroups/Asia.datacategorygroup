@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>India</label>
+            <name>India</name>
+        </dataCategory>
+        <dataCategory>
+            <label>China</label>
+            <name>China</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Sri Lanka</label>
+            <name>Sri_Lanka</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Nepal</label>
+            <name>Nepal</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Asia</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>
