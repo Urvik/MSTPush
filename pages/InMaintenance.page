@@ -8,7 +8,7 @@
         <apex:param value="{!$Site.CurrentSiteUrl}"/>
       </apex:outputText>
       <br/>
-      <p>It's now on Github with automationasdfdsafsdafsdfasdfasdfasdf</p>
+      <p>It's now on Github with automation</p>
       <p>created by UT</p>
       Lorum Ipsum Dolor Sit AMet swamiji
       <br/>
