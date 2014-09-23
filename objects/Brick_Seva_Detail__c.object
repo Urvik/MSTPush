@@ -181,6 +181,13 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Status_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Status Date</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
         <fullName>Street_Name__c</fullName>
         <externalId>false</externalId>
         <label>Street Name</label>

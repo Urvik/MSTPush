@@ -107,6 +107,10 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Status Date --></label>
+        <name>Status_Date__c</name>
+    </fields>
+    <fields>
         <label><!-- Street Name --></label>
         <name>Street_Name__c</name>
     </fields>

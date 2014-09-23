@@ -345,6 +345,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Brick_Seva_Detail__c.Status_Date__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Brick_Seva_Detail__c.Street_Name__c</field>
         <readable>true</readable>
