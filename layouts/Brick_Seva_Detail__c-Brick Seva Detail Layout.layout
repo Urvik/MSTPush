@@ -27,6 +27,10 @@
                 <behavior>Edit</behavior>
                 <field>Status_Date__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Owner_Email__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

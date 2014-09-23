@@ -148,6 +148,14 @@
         <visibleLines>4</visibleLines>
     </fields>
     <fields>
+        <fullName>Owner_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Owner Email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>State__c</fullName>
         <externalId>false</externalId>
         <label>State</label>

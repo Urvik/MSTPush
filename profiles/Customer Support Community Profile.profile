@@ -341,6 +341,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Brick_Seva_Detail__c.Owner_Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Brick_Seva_Detail__c.State__c</field>
         <readable>false</readable>
     </fieldPermissions>

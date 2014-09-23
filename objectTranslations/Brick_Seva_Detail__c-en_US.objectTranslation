@@ -79,6 +79,10 @@
         <name>Notes_Comments__c</name>
     </fields>
     <fields>
+        <label><!-- Owner Email --></label>
+        <name>Owner_Email__c</name>
+    </fields>
+    <fields>
         <label><!-- State --></label>
         <name>State__c</name>
         <picklistValues>
