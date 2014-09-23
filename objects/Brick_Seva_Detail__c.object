@@ -76,6 +76,13 @@
         <type>Phone</type>
     </fields>
     <fields>
+        <fullName>Done__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Done</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Effective_Date__c</fullName>
         <externalId>false</externalId>
         <label>Effective Date</label>

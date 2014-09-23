@@ -27,6 +27,10 @@
         <name>Donator_Phone_Number__c</name>
     </fields>
     <fields>
+        <label><!-- Done --></label>
+        <name>Done__c</name>
+    </fields>
+    <fields>
         <label><!-- Effective Date --></label>
         <name>Effective_Date__c</name>
     </fields>

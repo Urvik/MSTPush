@@ -316,6 +316,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Brick_Seva_Detail__c.Done__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Brick_Seva_Detail__c.Effective_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
