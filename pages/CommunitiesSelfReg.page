@@ -15,7 +15,7 @@
                       <apex:outputLabel value="{!$Label.site.password}" for="password"/>
                       <apex:inputSecret id="Swamiji" value="{!password}"/>
                       <apex:outputLabel value="{!$Label.site.confirm_password}" for="confirmPassword"/>
-                      <apex:inputSecret id="Shreeji" value="{!confirmPassword}"/>
+                      <apex:inputSecret id="Shreeji_Maharaj" value="{!confirmPassword}"/>
                       <apex:outputText value=""/>
                       <apex:commandButton action="{!registerUser}" value="{!$Label.site.submit}" id="submit"/>
                     </apex:panelGrid> 
